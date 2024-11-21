@@ -163,6 +163,11 @@ std::ostream &operator<<(std::ostream &os, const box &b)
   return os;
 }
 
+bool operator==(const box &lhs, const box &rhs)
+{
+  return (lhs.get_map() == rhs.get_map());
+}
+
 bool operator<(const box &lhs, const box &rhs)
 {
   // checking if dimensions of the boxes are the same
@@ -186,11 +191,6 @@ bool operator<(const box &lhs, const box &rhs)
     }
   }
   return false;
-}
-
-bool operator==(const box &lhs, const box &rhs)
-{
-  return (lhs.get_map() == rhs.get_map());
 }
 
 box operator+(const box &lhs, const box &rhs)
