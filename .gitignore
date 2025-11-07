@@ -20,3 +20,8 @@ Debug/
 Release/
 CTestTestfile.cmake
 install_manifest.txt
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.coverage
