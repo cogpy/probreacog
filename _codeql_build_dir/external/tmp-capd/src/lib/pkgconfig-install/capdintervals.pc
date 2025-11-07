@@ -1,0 +1,11 @@
+prefix=/home/runner/work/probreacog/probreacog/_codeql_build_dir/external/capd
+exec_prefix=${prefix}
+libdir=/home/runner/work/probreacog/probreacog/_codeql_build_dir/external/tmp-capd/src/capdAlg/src/capd/intervals
+includedir=${prefix}/include
+
+Name: capdintervals
+Description: capdintervals module
+Requires: capdauxil capdrounding capdbasicalg capdExt
+Version: 5.1.2
+Libs:   ${libdir}/libcapdintervals.la 
+Cflags: -frounding-math  -I${includedir}

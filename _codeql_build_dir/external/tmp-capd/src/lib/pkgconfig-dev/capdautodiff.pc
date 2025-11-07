@@ -1,0 +1,11 @@
+prefix=./..
+exec_prefix=${prefix}
+libdir=/home/runner/work/probreacog/probreacog/_codeql_build_dir/external/tmp-capd/src/capdDynSys4/src/capd/autodiff
+includedir=/home/runner/work/probreacog/probreacog/_codeql_build_dir/external/tmp-capd/src/capdDynSys4/include
+
+Name: capdautodiff
+Description: capdautodiff module
+Requires:
+Version: 5.1.2
+Libs:   ${libdir}/libcapdautodiff.la 
+Cflags:   -I${includedir}

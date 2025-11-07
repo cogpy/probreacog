@@ -1,0 +1,7 @@
+libcapdrounding_la-DoubleRounding.lo: DoubleRounding.cpp \
+ /usr/include/stdc-predef.h \
+ ../../../include/capd/rounding/DoubleRounding.h \
+ /home/runner/work/probreacog/probreacog/_codeql_build_dir/external/tmp-capd/src/capdAux/include/capd/settings/archSetting.h
+/usr/include/stdc-predef.h:
+../../../include/capd/rounding/DoubleRounding.h:
+/home/runner/work/probreacog/probreacog/_codeql_build_dir/external/tmp-capd/src/capdAux/include/capd/settings/archSetting.h:

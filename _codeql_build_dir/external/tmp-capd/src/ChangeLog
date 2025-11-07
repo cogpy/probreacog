@@ -1,0 +1,23 @@
+capd (5.1.2-1) stable; urgency=low
+
+  * Automatic ChangeLog. Patch 5.1.2
+
+ -- Automatic <no_email@noemail.com>  Tue, 06 Aug 2019 11:00:36 +0000
+
+capd (5.1) stable; urgency=low
+
+  * Modern compilers
+  
+ -- Mateusz Juda <mateusz.juda@uj.edu.pl>  Tue, 18 Jul 2019 8:00:00 +0200
+capd (5.0) stable; urgency=high
+
+  * New structure for shared libraries in capdRedHom.
+  * Distribute only apiRedHom headers
+  
+ -- Mateusz Juda <mateusz.juda@uj.edu.pl>  Tue, 02 Feb 2017 8:00:00 +0200
+capd (4.2) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Mateusz Juda <mateusz.juda@uj.edu.pl>  Wed, 30 Jul 2014 18:50:31 +0200
+

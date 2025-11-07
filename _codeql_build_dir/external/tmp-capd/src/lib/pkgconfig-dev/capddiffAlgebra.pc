@@ -1,0 +1,11 @@
+prefix=./..
+exec_prefix=${prefix}
+libdir=/home/runner/work/probreacog/probreacog/_codeql_build_dir/external/tmp-capd/src/capdDynSys4/src/capd/diffAlgebra
+includedir=/home/runner/work/probreacog/probreacog/_codeql_build_dir/external/tmp-capd/src/capdDynSys4/include
+
+Name: capddiffAlgebra
+Description: capddiffAlgebra module
+Requires:
+Version: 5.1.2
+Libs:   ${libdir}/libcapddiffAlgebra.la 
+Cflags:   -I${includedir}

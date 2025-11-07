@@ -1,0 +1,6 @@
+Name: capdAux
+Description: capdAux library.
+Requires: capdauxil 
+Version: 5.1.2
+Libs:
+Cflags:  
