@@ -1,0 +1,6 @@
+Name: capd
+Description: capd library.
+Requires:  capdDynSys
+Version: 5.1.2
+Libs:
+Cflags: 

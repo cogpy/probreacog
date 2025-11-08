@@ -1,0 +1,11 @@
+prefix=/home/runner/work/probreacog/probreacog/_codeql_build_dir/external/capd
+exec_prefix=${prefix}
+libdir=/home/runner/work/probreacog/probreacog/_codeql_build_dir/external/tmp-capd/src/capdExt/src/capd/alglib
+includedir=${prefix}/include
+
+Name: capdalglib
+Description: capdalglib module
+Requires:
+Version: 1.1
+Libs:   ${libdir}/libcapdalglib.la
+Cflags:   -I${includedir}

@@ -1,0 +1,11 @@
+prefix=/home/runner/work/probreacog/probreacog/_codeql_build_dir/external/capd
+exec_prefix=${prefix}
+libdir=/home/runner/work/probreacog/probreacog/_codeql_build_dir/external/tmp-capd/src/capdDynSys4/src/capd/covrel
+includedir=${prefix}/include
+
+Name: capdcovrel
+Description: capdcovrel module
+Requires:
+Version: 5.1.2
+Libs:   ${libdir}/libcapdcovrel.la 
+Cflags:   -I${includedir}

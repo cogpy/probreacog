@@ -1,0 +1,11 @@
+prefix=/home/runner/work/probreacog/probreacog/_codeql_build_dir/external/capd
+exec_prefix=${prefix}
+libdir=/home/runner/work/probreacog/probreacog/_codeql_build_dir/external/tmp-capd/src/capdDynSys4/src/capd/diffIncl
+includedir=${prefix}/include
+
+Name: capddiffIncl
+Description: capddiffIncl module
+Requires:
+Version: 5.1.2
+Libs:   ${libdir}/libcapddiffIncl.la 
+Cflags:   -I${includedir}

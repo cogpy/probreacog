@@ -1,0 +1,11 @@
+prefix=/home/runner/work/probreacog/probreacog/_codeql_build_dir/external/capd
+exec_prefix=${prefix}
+libdir=/home/runner/work/probreacog/probreacog/_codeql_build_dir/external/tmp-capd/src/capdDynSys4/src/capd/dynsys
+includedir=${prefix}/include
+
+Name: capddynsys
+Description: capddynsys module
+Requires:
+Version: 5.1.2
+Libs:   ${libdir}/libcapddynsys.la 
+Cflags:   -I${includedir}

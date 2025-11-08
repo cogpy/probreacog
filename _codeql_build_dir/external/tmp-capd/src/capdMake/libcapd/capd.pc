@@ -1,0 +1,14 @@
+prefix=/home/runner/work/probreacog/probreacog/_codeql_build_dir/external/capd
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+# replace by *-config scripts
+capd_prefix=/home/runner/work/probreacog/probreacog/_codeql_build_dir/external/capd
+
+Name: capd
+Description: capd library.
+Requires:
+Version: 5.1.2
+Libs: -L${capd_prefix}/lib -L${libdir} -lcapd                 
+Cflags: -I${capd_prefix}/include -I/home/runner/work/probreacog/probreacog/_codeql_build_dir/external/tmp-capd/src/capdDynSys4/include -I/home/runner/work/probreacog/probreacog/_codeql_build_dir/external/tmp-capd/src/capdAlg/include -I/home/runner/work/probreacog/probreacog/_codeql_build_dir/external/tmp-capd/src/capdAux/include -I/home/runner/work/probreacog/probreacog/_codeql_build_dir/external/tmp-capd/src/capdExt/include -frounding-math 

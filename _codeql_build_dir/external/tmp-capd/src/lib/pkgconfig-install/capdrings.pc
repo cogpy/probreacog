@@ -1,0 +1,11 @@
+prefix=/home/runner/work/probreacog/probreacog/_codeql_build_dir/external/capd
+exec_prefix=${prefix}
+libdir=/home/runner/work/probreacog/probreacog/_codeql_build_dir/external/tmp-capd/src/capdAlg/src/capd/rings
+includedir=${prefix}/include
+
+Name: capdrings
+Description: capdrings module
+Requires:
+Version: 5.1.2
+Libs:   ${libdir}/libcapdrings.la 
+Cflags:   -I${includedir}

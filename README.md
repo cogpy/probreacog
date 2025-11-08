@@ -21,6 +21,40 @@ make
 * [**gp**](doc/gp/README.md) - estimates bounded reachability probability function via Gaussian process.
 * [**pdrh2simulink**](doc/pdrh2simulink/README.md) - translates the provided ProbReach model into *Simulink®/Stateflow®* format.
 
+## OpenCog Multi-Agent Orchestration Workbench
+
+**NEW**: An autonomous multi-agent orchestration system for mathematical biology models integrating OpenCog's cognitive architecture with ProbReach tools.
+
+* [**opencog_workbench**](src/opencog_workbench/README.md) - Multi-agent system with AtomSpace knowledge representation, PLN reasoning, and ECAN attention allocation
+* [**Documentation**](doc/opencog_integration.md) - Complete integration documentation
+
+### Quick Start
+
+```python
+from opencog_workbench import WorkbenchOrchestrator
+
+# Initialize workbench
+workbench = WorkbenchOrchestrator()
+
+# Load model
+model = workbench.load_pdrh_model("model/psoriasis/psoriasis.pdrh", "psoriasis")
+
+# Execute analysis workflow
+workflow_id = workbench.create_analysis_workflow("psoriasis")
+results = workbench.execute_workflow(workflow_id)
+
+# Reason about goals
+reasoning = workbench.reason_about_goal("remission_365")
+print(f"Reachability: {reasoning['reachability']['probability']:.3f}")
+```
+
+Run example:
+```bash
+cd src/opencog_workbench
+python example_usage.py
+python test_workbench.py  # Run tests
+```
+
 
 ## How to run tests
 ProbReach uses [GoogleTest](https://github.com/google/googletest) for testing. Here is how you can set it up (click [here](https://github.com/google/googletest/blob/main/googletest/README.md) for more detailed instructions):

@@ -1,0 +1,9 @@
+abs_top_srcdir=/home/runner/work/probreacog/probreacog/_codeql_build_dir/external/tmp-capd/src/capdExt
+abs_top_builddir=/home/runner/work/probreacog/probreacog/_codeql_build_dir/external/tmp-capd/src/capdExt
+
+Name: capdExt
+Description: capdExt  library.
+Requires: capdalglib
+Version: 1.1
+Libs: 
+Cflags:   

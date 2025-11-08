@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/usr/local/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/runner/work/probreacog/probreacog/_codeql_build_dir/external/tmp-capd/capd-stamp/download-capd.cmake;COMMAND;/usr/local/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/runner/work/probreacog/probreacog/_codeql_build_dir/external/tmp-capd/capd-stamp/verify-capd.cmake;COMMAND;/usr/local/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/runner/work/probreacog/probreacog/_codeql_build_dir/external/tmp-capd/capd-stamp/extract-capd.cmake
+source_dir=/home/runner/work/probreacog/probreacog/_codeql_build_dir/external/tmp-capd/src
+work_dir=/home/runner/work/probreacog/probreacog/_codeql_build_dir/external/tmp-capd
+url(s)=https://sourceforge.net/projects/capd/files/5.1.2/src/capd-capdDynSys-5.1.2.tar.gz
+hash=
+      no_extract=
+

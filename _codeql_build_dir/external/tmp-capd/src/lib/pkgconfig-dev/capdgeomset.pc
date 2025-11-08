@@ -1,0 +1,11 @@
+prefix=./..
+exec_prefix=${prefix}
+libdir=/home/runner/work/probreacog/probreacog/_codeql_build_dir/external/tmp-capd/src/capdDynSys4/src/capd/geomset
+includedir=/home/runner/work/probreacog/probreacog/_codeql_build_dir/external/tmp-capd/src/capdDynSys4/include
+
+Name: capdgeomset
+Description: capdgeomset module
+Requires:
+Version: 5.1.2
+Libs:   ${libdir}/libcapdgeomset.la 
+Cflags:   -I${includedir}
